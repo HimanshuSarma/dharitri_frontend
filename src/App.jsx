@@ -21,6 +21,7 @@ import {checkUserLogin} from './redux/ActionCreators/userActions';
 import './App.css';
 
 function App() {
+  console.log(base_url);
 
   const dispatch = useDispatch();
 
